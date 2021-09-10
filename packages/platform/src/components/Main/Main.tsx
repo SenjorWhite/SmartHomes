@@ -43,9 +43,6 @@ const Main = () => {
   };
 
   const [serialNumber, setSerialNumber] = useState<string>("00A1");
-  const [serialReading, setSerialReading] = useState<
-    { x: Number; y: Number }[]
-  >(serialReadings["00A1"]);
 
   return (
     <div className="Main">
